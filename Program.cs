@@ -65,6 +65,7 @@ namespace SequenciaPares
                 Console.ResetColor();
                 Console.Write(")?  ");
                 c = Console.ReadLine().ToUpper();
+                
             } while (c == "SIM");
 
             Console.WriteLine();
